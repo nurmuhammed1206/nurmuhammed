@@ -1,0 +1,380 @@
+body {
+    background-color: #C7C9E2;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 700;
+    text-transform: capitalize;
+    
+}
+/* Intro */
+.container {
+    max-width: 1200px;
+    margin: 100px auto;
+    padding: 0 20px;
+}
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+.menu a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: contents;
+}
+.menu a, img{
+    
+}
+.logo {
+    font-size: 55px;
+    letter-spacing: 8px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+/* section */
+.music__style {
+    display: flex;
+}
+.music__list {
+    margin-top: 45px;
+    width: 12.5%;
+}
+.music__text {
+    text-align: left;
+    width: 25%;
+}
+.line {
+    width: 20px;
+    height: 2px;
+    background-color: black;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.music__image {
+   
+    width: 34%;
+}   
+.music__download {
+    
+    width: 28.5%;
+
+}
+.icon {
+    margin-bottom: 25px;
+    word-spacing: 18px;
+}
+.text1 {
+    width: 80px;
+    font-size: 50px;
+    font-weight: 700;
+    margin-left: 30px;
+    
+}
+.text2 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.text3 {
+    width: 200px;
+    color: #B7B7C1;
+    margin-left: 30px;
+    
+}
+.photo1 {
+    width: 290px;
+    
+}
+.photo2 {
+    margin-left: 100px;
+    margin-top: -60px;
+    width: 90px;
+    
+}
+.download1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.border {
+    margin-bottom: 20px;
+    width: 300px;
+    height: 60px;
+    background: #EDEBF6;
+    box-shadow: 0px 4px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 9px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card_info{
+    display: inherit;
+    
+}
+.ava1 {
+    margin-left: 15px;
+}
+
+.name{
+    margin:10px;
+}
+.name1 {
+    font-size: 10px;
+    
+    
+}
+.name2 {
+    font-size: 8px;
+    color: rgba(18, 18, 18, 0.31);
+    
+   
+}
+.name3 {
+    font-size: 12px;
+}
+.name4 {
+    font-size: 10px;
+    color: rgba(18, 18, 18, 0.31);
+}
+.card_image{
+    margin-right: 10px;
+    border:none;
+}
+
+/* music info */
+.music__info{
+    display: flex;
+    margin-top: 55px;
+}
+.music_circle{
+    margin-top: 70px;
+}
+.cir1 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #C4487A;
+    margin-bottom: 25px;
+}
+.cir2 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #57B9C6;
+    margin-bottom: 25px;
+}
+.cir3 {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: #EC4743;
+}
+.music_border{
+    width: 200px;
+    height: 240px;
+    background: linear-gradient(180deg, #CD3C61 0%, #334AC5 100%);
+    box-shadow: 0px 4px 9px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 35px;
+    margin-left: 30px;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+
+    
+}
+.musics{
+    width: 120px;
+    height: 160px;
+    background: #F0F0FA;
+    box-shadow: -2px 5px 13px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    
+    padding: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 55px;
+    
+}
+.ava {
+    margin-top: 20px;
+}
+.informat {
+    font-size: 14px;
+    color: #F8B6E6;
+}
+.subinfo{
+    font-size: 7px;
+    color: #BC80BE;
+}
+.player {
+    margin-top: 20px;
+}
+.icon_info {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+.text01{
+    font-size: 35px;
+}
+.text02{
+    font-size: 15px;
+    width: 50px;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+
+@media (max-width:1200px) {
+    .container{
+        max-width: 970px;
+        margin: 100px auto;
+    }
+    .ava1 {
+        margin-left: 10px;
+    }
+    .border{
+        width: 200px;
+    }
+}
+@media (max-width: 992px){
+    .container{
+        max-width: 750px;
+        margin: 100px auto;
+    }
+    .music__list{
+        width: 80px;
+    }
+    .icon {
+        word-spacing: 5px;
+        font-size: 14px;
+    }
+    .music__text{
+        width: 20%;
+
+    }
+    .text1{
+        font-size: 35px;
+        margin-left: 15px;
+    }
+    .text2{
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .text3{
+        font-size: 13px;
+        margin-left: 15px;
+        width: 130px;
+    }
+    .photo1 {
+        width: 240px;
+        
+    }
+    .photo2 {
+        margin-left: 85px;
+        margin-top: -50px;
+        width: 70px;
+        
+    }
+}
+@media (max-width: 767px){
+    .container{
+        max-width: 576px;
+        margin: 100px auto;
+    }
+    .music__style {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .music__list {
+        width: 100px;
+    }
+    .music__text {
+        width: 35%;
+    }
+    .music__info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 55px;
+        padding: 0 49px;
+    }
+}
+@media (max-width:576px) {
+    .container {
+        max-width: 365px;
+        margin: 100px auto;
+    }
+    .logo{
+        letter-spacing: 5px;
+        font-size: 30px;
+    }
+    .menu a, img {
+        margin-left: 8px;
+    }
+    .border{
+        width: 200px;
+    }
+    .music__image {
+        width: 85%;
+        margin-bottom: 30px;
+    }
+    .card_info {
+        display: flex;
+        align-items: center;
+    }
+    .music__info {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 55px;
+        padding: 0 0px; 
+    }
+    .musics{
+        margin-bottom: 25px;
+    }
+
+}
+@media (max-width:370px){
+    .container{
+        max-width: none;
+        margin: 100px auto;
+    }
+    .header__main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo{
+        font-size: 35px;
+        margin-bottom: 15px;
+    }
+    .text1{
+        font-size: 28px;
+    }
+    .photo1{
+        width: 200px;
+    }
+    .photo2 {
+        margin-left: 80px;
+        margin-top: -40px;
+        width: 55px;
+    }
+    .music_border {
+        width: 168px;
+        height: 240px;
+        margin-left: 5px;
+       
+    }
+}
